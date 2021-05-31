@@ -15,6 +15,7 @@ function addList() {
 
     //Adding delete button to element
 
+
     let deleteButton = document.createElement("button");
 
     deleteButton.appendChild(document.createTextNode("delete"));
