@@ -6,25 +6,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Rajdhani:wght@500;700&display=swap" rel="stylesheet">
+    <title>ToDo List</title>
 </head>
 
 <body>
     <h1>ToDo List</h1>
 
-    <div class="todo">
-            <label for="addList"> Add List </label>
+    <div class="box">
+        <div class="task">
             <br>
-            <input type="text" id="addList" name="addList"> 
-            <button type="submit" onclick="addList()">Submit</button>
-
-            <div class="task">
-                <h2 >Tasks</h2>
-                <ul id="list"></ul>
+            
+            <input type="text" id="addList" name="addList" onkeyup="myFunction(event)" placeholder="What needs to be done?" /> 
+               
+                <ul id="list">
+                 
+                </ul>
             </div>
     </div>
     
-    <script src="app.js"></script>
+    <script src="app.js">
+
+
+
+    </script>
 
 </body>
 
